@@ -8,8 +8,21 @@ class MenuScreen extends StatefulWidget {
 }
 
 class _MenuScreenState extends State<MenuScreen> {
+  PageController controller = PageController(initialPage: 0);
+  int currentIndex = 0;
+
+  void onTap(int index) {
+    setState(() {
+      currentIndex = index;
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
-    return MenuScreenView();
+    return MenuScreenView(
+      pageController: controller,
+      setIndex: onTap,
+      index: currentIndex,
+    );
   }
 }
