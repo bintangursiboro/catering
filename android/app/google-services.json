@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "292196871864",
+    "firebase_url": "https://kamar-8c.firebaseio.com",
+    "project_id": "kamar-8c",
+    "storage_bucket": "kamar-8c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:292196871864:android:84984c5504c88875d70e4d",
+        "android_client_info": {
+          "package_name": "com.example.kamar8c"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "292196871864-pdssbp7qermbrjuc1tum4tss1fagv4p7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIqzTk7C5lqe3MeVANSn3gPe6I363cIPk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "292196871864-pdssbp7qermbrjuc1tum4tss1fagv4p7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:292196871864:android:fc734ed135d2ccf0d70e4d",
+        "android_client_info": {
+          "package_name": "com.example.kamar_8c"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "292196871864-pdssbp7qermbrjuc1tum4tss1fagv4p7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIqzTk7C5lqe3MeVANSn3gPe6I363cIPk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "292196871864-pdssbp7qermbrjuc1tum4tss1fagv4p7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
