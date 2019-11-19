@@ -4,6 +4,7 @@ class FirestoreHelper {
   Firestore firestoreInstance = Firestore.instance;
 
   Future<bool> getUser({String username, String password}) async {
+    bool isTrue;
     return await firestoreInstance
         .collection('user')
         .getDocuments()
@@ -13,10 +14,14 @@ class FirestoreHelper {
         print(
             'username: $username , ${snapshot.data['username']}. password: $password , ${snapshot.data['password']}. ');
         if (snapshot.data['username'].toString() == username &&
-            snapshot.data['password'].toString() == password) return true;
+            snapshot.data['password'].toString() == password) {
+          isTrue = true;
+        } else {
+          isTrue = false;
+        }
       });
-      print('false');
-      return false;
+      print(isTrue);
+      return isTrue;
     });
   }
 }
