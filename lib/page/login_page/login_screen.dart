@@ -1,5 +1,4 @@
 import 'package:flutter/cupertino.dart';
-import 'package:flutter/cupertino.dart' as prefix0;
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:kamar_8c/page/login_page/bloc/login_screen_bloc.dart';
 import 'package:kamar_8c/page/login_page/bloc/login_screen_event.dart';

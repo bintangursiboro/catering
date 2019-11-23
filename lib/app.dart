@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:kamar_8c/page/example/example_notification.dart';
 import 'package:kamar_8c/page/login_page/bloc/login_screen_bloc.dart';
 import 'package:kamar_8c/page/login_page/login_screen.dart';
 import 'package:kamar_8c/page/menu_page/menu_screen.dart';
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
             builder: (BuildContext context) => LoginScreenBloc(),
           ),
         ],
-        child: LoginScreen(),
+        child: ExampleNotification(),
       ),
     );
   }
